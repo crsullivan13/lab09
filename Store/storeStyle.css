@@ -1,0 +1,14 @@
+.form {
+    border: 5px solid black;
+    padding-left: 5%;
+    background-color: salmon;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+body {
+    background-color: black;
+}

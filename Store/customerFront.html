@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="storeStyle.css">
+        <title>Store</title>
+    </head>
+    <body>
+        <div class="form">
+            <form id="myForm" action="customerBack.php" method="post" onsubmit="return verify();">
+                <h2>Login:</h2>
+                <h3>Username</h3>
+                <input type="text" name="username" id="username" placeholder="name@domain.com"><br>
+                <h3>Password</h3>
+                <input type="password" name="password" id="password"><br>
+                <h2>Store Items</h2>
+                <h3>Cat Toy ---- $10</h3>
+                <img src="catToy.jpg">
+                <p>Item quantity</p>
+                <input type="text" name="quantityCat" id="quantityCat"><br><br>
+                <h3>Dog Toy ---- $12</h3>
+                <img src="dog.jpg">
+                <p>Item quantity</p>
+                <input type="text" name="quantityDog" id="quantityDog"><br><br>
+                <h3>Lamp ---- $20</h3>
+                <img src="lamp.jpg">
+                <p>Item quantity</p>
+                <input type="text" name="quantityLamp" id="quantityLamp"><br><br>
+                <p>Shipping options</p>
+                <input type="radio" id="free" name="shipping" value="free">
+                <label for="free">Free 7 day</label><br>
+                <input type="radio" id="night" name="shipping" value="night">
+                <label for="night">$50.00 over night</label><br>
+                <input type="radio" id="three" name="shipping" value="three">
+                <label for="three">$5.00 three day</label><br>
+                <br>
+                <input type="submit" value="Submit Order">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+
+    </body>
+    <script src="formChecker.js"></script>
+</html>
